@@ -5,14 +5,14 @@ const rl = readline.createInterface({
 });
 
 function getRandom() {
-  return Math.floor((Math.random() * 100) + 1);
+  return Math.floor((Math.random() * 100) + 100);
 }
 
 let aleatory = getRandom();
 let number = '';
 let tentativas = 1;
 
-console.log("Seja bem-vindo ao sorteio dos números!");
+console.log("Seja bem-vindo ao sorteio de um número entre 100 e 200!");
 
 function correta () {
     rl.question("Digite um número: ", (i) => {
