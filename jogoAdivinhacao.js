@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 
 function getRandom() {
-  return Math.floor((Math.random() * 100) + 100);
+  return Math.floor((Math.random() * 100) + 1);
 }
 
 let aleatory = getRandom();
